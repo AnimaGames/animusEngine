@@ -5,7 +5,7 @@ Game *game = nullptr;
 int main(int argc, char *argv[])
 {
 	game = new Game();
-	game->Init("AnimusEngine", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, false);
+	game->Init("AnimusEngine", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 854, 480, false);
 
 	const int FPS = 60;
 	const int frameDelay = 1000 / FPS;
