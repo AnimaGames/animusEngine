@@ -58,6 +58,7 @@ void Game::Update()
 	cnt++;
 	destRect.h = 32;
 	destRect.w = 32;
+	destRect.x = cnt;
 	std::cout << cnt << std::endl;
 }
 
