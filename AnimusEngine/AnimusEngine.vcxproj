@@ -127,18 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Source\Map.h" />
+    <ClInclude Include="Source\Game.h" />
+    <ClInclude Include="Source\GameObject.h" />
+    <ClInclude Include="Source\TextureManager.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="Source\Map.cpp" />
+    <ClCompile Include="Source\Game.cpp" />
+    <ClCompile Include="Source\GameObject.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\TextureManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\Aseprite\player.png">
-      <DeploymentContent>true</DeploymentContent>
-    </Image>
+    <Image Include="Assets\enemy.png" />
+    <Image Include="Assets\player.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
